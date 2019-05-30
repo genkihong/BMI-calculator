@@ -1,0 +1,119 @@
+
+body{
+  font-family: "Microsoft JhengHei",sans-serif;
+}
+.bg-banner{
+  height: 300px;
+  background: $dark-gray;
+}
+
+.form-group{
+  input{
+    height: 40px;
+    font-size: 24px;
+    color: rgba(255,255,255,0.50);
+    border-radius: 10px;
+    border: 2px solid $accent;
+    background: rgba(255,255,255,0.18);
+  }
+}
+
+@media (max-width: 768px){
+  .show-icon{
+    p{
+      font-size: 26px;
+    }
+  }
+}
+#go-btn{
+  width: 120px;
+  height: 120px;
+  font-size: 24px;
+  color: $dark-gray;
+  border-radius: 50%;
+  background: $accent;
+  transition: all .3s;
+  &:hover{
+    box-shadow: 0 1px 6px 3px rgba(255,195,49,0.64);
+  }
+  &:active{
+    background: #DEA921;
+  }
+}
+#bmi-btn{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding-top: 30px;
+  line-height: 1;
+  background: $dark-gray;
+}
+
+@media (max-width: 576px){
+  #go-btn{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+  }
+  #bmi-btn{
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+  }
+}
+
+#spin-icon{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid $dark-gray;
+  transition: ease .8s;
+  &:hover{
+    width: 32px;
+    height: 32px;
+    transform: rotate(720deg);
+  }
+}
+
+
+.main{
+  padding: 48px 0 75px; 
+  background: #f5f5f5;
+}
+
+.bmi-title{
+  color: $dark-gray;
+  margin-bottom: 36px;
+}
+
+#bmi-result{
+  li{
+    padding: 18px 0;
+    transition: ease-out .3s;
+    &:hover{
+      transform: scale(1.05, 1.05);
+      }
+    }
+  }
+
+.bmi-footer{
+  padding: 20px;
+}
+
+.mr-6{
+  margin-right: 2.5rem;
+}
+
+.font-14{
+  font-size: 14px;
+}
+
+.font-18{
+  color: $accent;
+  font-size: 18px;
+}

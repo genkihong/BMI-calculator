@@ -1,0 +1,80 @@
+// text color
+.text-dark-gray{
+  color: $dark-gray;
+}
+.text-lighter{
+  color: $lighter
+}
+.text-ideal{
+  color: $ideal
+}
+.text-stout{
+  color: $stout;
+}
+.text-fat{
+  color: $fat;
+}
+.text-obese{
+  color: $obese;
+}
+// background color
+.bg-accent{
+  background: $accent;
+}
+.bg-lighter{
+  background: $lighter;
+}
+.bg-ideal{
+  background: $ideal;
+}
+.bg-stout{
+  background: $stout;
+}
+.bg-fat{
+  background: $fat;
+}
+.bg-obese{
+  background: $obese;
+}
+// show-icon color
+.circle-lighter{
+  color: $lighter;
+  border: 6px solid $lighter;
+}
+.circle-ideal{
+  color: $ideal;
+  border: 6px solid $ideal;
+}
+.circle-stout{
+  color: $stout;
+  border: 6px solid $stout;
+}
+.circle-fat{
+  color: $fat;
+  border: 6px solid $fat;
+}
+.circle-obese{
+  color: $obese;
+  border: 6px solid $obese;
+}
+//border-left color
+.border-lighter{
+  border-left: 8px solid $lighter;
+  box-shadow: 2px 0 3px 0 rgba(49,186,249,0.29);
+}
+.border-ideal{
+  border-left: 8px solid $ideal;
+  box-shadow: 2px 0 3px 0 rgba(133,215,63,0.29);
+}
+.border-stout{
+  border-left: 8px solid $stout;
+  box-shadow: 2px 0 3px 0 rgba(255,152,45,0.29);
+}
+.border-fat{
+  border-left: 8px solid $fat;
+  box-shadow: 2px 0 3px 0 rgba(255,108,2,0.29);
+}
+.border-obese{
+  border-left: 8px solid $obese;
+  box-shadow: 2px 0 3px 0 rgba(255,17,0,0.29);
+}
