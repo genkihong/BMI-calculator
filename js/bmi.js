@@ -139,7 +139,7 @@ function showBMIBtn(BMIbtn) {
   let str =`<div id="bmi-btn" class="ml-4 text-center ${BMIbtn.circle}">
               <p class="h2">${BMIbtn.bmi}</p>
               <span class="font-14">BMI</span>
-              <img id="spin-icon" src="../images/icons_loop.png" class="${BMIbtn.spin}">
+              <img id="spin-icon" src="https://upload.cc/i1/2019/02/05/687Wof.png" class="${BMIbtn.spin}">
             </div>
             <p class="h2 my-auto ml-3 ${BMIbtn.text}">${BMIbtn.rank}</p>`;
   showBtn.innerHTML = str;
